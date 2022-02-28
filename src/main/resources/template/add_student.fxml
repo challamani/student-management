@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="600.0" maxWidth="1000.0" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="service.StudentService">
+   <children>
+      <Label layoutX="622.0" layoutY="38.0" text="Add Student Record" textFill="#1f073cd4">
+         <font>
+            <Font name="Chalkboard" size="24.0" />
+         </font>
+      </Label>
+      <Separator layoutX="40.0" layoutY="80.0" prefHeight="17.0" prefWidth="920.0" />
+      
+      <TextField fx:id="studentId" layoutX="350.0" layoutY="110.0" mouseTransparent="true" prefHeight="31.0" prefWidth="502.0" promptText="Student#">
+         <font>
+            <Font name="Chalkboard" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="firstName" layoutX="350.0" layoutY="150.0" prefHeight="31.0" prefWidth="502.0" promptText="First Name">
+         <font>
+            <Font name="Chalkboard" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="lastName" layoutX="350.0" layoutY="190.0" prefHeight="31.0" prefWidth="502.0" promptText="Surname">
+         <font>
+            <Font name="Chalkboard" size="14.0" />
+         </font>
+      </TextField>
+
+      <TextField fx:id="email" layoutX="350.0" layoutY="230.0" prefHeight="31.0" prefWidth="502.0" promptText="email">
+         <font>
+            <Font name="Chalkboard" size="14.0" />
+         </font>
+      </TextField>
+
+      <TextField fx:id="fatherName" layoutX="350.0" layoutY="270.0" prefHeight="31.0" prefWidth="502.0" promptText="Father's Name">
+         <font>
+            <Font name="Chalkboard" size="14.0" />
+         </font>
+      </TextField>
+
+      <TextField fx:id="phoneNo" layoutX="350.0" layoutY="310.0" prefHeight="31.0" prefWidth="502.0" promptText="Contact No">
+         <font>
+            <Font name="Chalkboard" size="14.0" />
+         </font>
+      </TextField>
+
+      <TextField fx:id="dob" layoutX="350.0" layoutY="350.0" prefHeight="31.0" prefWidth="502.0" promptText="Date of Birth">
+         <font>
+            <Font name="Chalkboard" size="14.0" />
+         </font>
+      </TextField>
+
+      <TextField fx:id="group" layoutX="350.0" layoutY="390.0" prefHeight="31.0" prefWidth="502.0" promptText="Group/Class">
+         <font>
+            <Font name="Chalkboard" size="14.0" />
+         </font>
+      </TextField>
+
+      <TextField fx:id="address" layoutX="350.0" layoutY="430.0" prefHeight="70.0" prefWidth="502.0" promptText="Present address">
+         <font>
+            <Font name="Chalkboard" size="14.0" />
+         </font>
+      </TextField>
+
+      <Button fx:id="add" layoutX="736.0" layoutY="508.0" mnemonicParsing="false" onAction="#addRecord" prefHeight="31.0" prefWidth="116.0" text="Submit">
+         <font>
+            <Font name="Chalkboard" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="recordStatusLabel" layoutX="26.0" layoutY="510.0" prefHeight="31.0" prefWidth="350.0" textFill="#00b24a">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
